@@ -3,7 +3,7 @@
 ### Overview
 
 This project focuses on analyzing and forecasting internet usage patterns from the Telecom Italia Milan dataset.
-It applies data preprocessing, outlier removal, and time-series modeling using a SARIMA model optimized through Grid Search to capture seasonal and trend behaviors in network demand.
+It applies data preprocessing, outlier removal, and time-series modeling using a SARIMAX model optimized through Grid Search to capture seasonal and trend behaviors in network demand.
 
 ### Key Steps
 
@@ -19,7 +19,7 @@ It applies data preprocessing, outlier removal, and time-series modeling using a
 
 - Time-series resampling and decomposition
 
-- SARIMA model building and hyperparameter tuning via Grid Search
+- SARIMAX model building and hyperparameter tuning via Grid Search
 
 - Forecasting and performance evaluation using AIC and MAPE
 
@@ -46,4 +46,4 @@ jupyter notebook Telecom_Italia_Milan_Usage_Analysis.ipynb
 ```
 ### Result
 
-The optimized SARIMA model successfully forecasts internet traffic, revealing clear daily and seasonal patterns in user activity across the Milan telecom network.
+The optimized SARIMAX model successfully forecasts internet traffic, revealing clear daily and seasonal patterns in user activity across the Milan telecom network.
